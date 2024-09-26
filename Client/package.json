@@ -52,5 +52,6 @@
   "description": "Welcome to the PawFinds Pet Adoption System front-end repository! This project is developed using React.js and aims to provide a user-friendly interface for users to discover and adopt pets.",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
