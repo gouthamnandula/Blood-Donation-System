@@ -16,9 +16,9 @@ const CardBelowHome = () => {
   return (
     <div className='dark-grey-container'>
       <div className='left-pic'><img src={HomeDarkCardLeftPic} alt="Dog with toy"/></div>
-      <div className='left-para'><p><p className='adopted-pets-num'></p>Donors and Recipients Connected,<br/>Saving Lives Every Day</p></div>
+      <div className='left-para'><p><p className='adopted-pets-num'></p>Donors and Recipients Connected,<br/> Saving Lives Every Day</p></div>
       <div className='right-pic'><img src={HomeDarkCardRightPic} alt="Dog pic" /></div>
-      <div className='right-para'><p className='we-do'>WHAT WE DO?</p>With a focus on matching the right pet with the right family, PawFinds makes it easy to adopt love and foster happiness.</div>
+      <div className='right-para'><p className='we-do'>WHAT WE DO?</p>With a focus on connecting the right donors with the right recipients, Blood Connect makes it easy to donate life and foster hope.</div>
     </div>
   )
 }
