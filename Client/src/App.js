@@ -12,9 +12,9 @@ import "./App.css";
 
 const Layout = ({ children }) => (
   <>
-    <Navbar title="PawFinds" />
+    <Navbar title="BloodConnect" />
     {children}
-    <Footer title="PawFinds" />
+    <Footer title="BloodConnect" />
   </>
 );
 
@@ -26,7 +26,7 @@ const App = () => {
           path="/" 
           element={
             <Layout>
-              <Home description="Ensure you are fully prepared to provide proper care and attention to your pet before welcoming them into your home." />
+              <Home description="Ensure you are fully prepared to provide proper care and attention to donors and recipients before participating in the blood donation process." />
             </Layout>
           } 
         />

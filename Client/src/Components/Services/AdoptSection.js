@@ -38,7 +38,7 @@ const AdoptSection = () => {
       </p>
 
       <Link to="/pets">
-        <button className="cta-button" onClick={scrollToTop}>Find Your Perfect Pet</button>
+        <button className="cta-button" onClick={scrollToTop}>Find Your Group Blood</button>
       </Link>
     </section>
   );

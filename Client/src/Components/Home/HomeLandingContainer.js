@@ -1,7 +1,7 @@
 import React from "react";
-import girlHoldingADog from "./images/girlHoldingADog.png";
-import homepageDog from "./images/homepageDog.png";
-import footPrint from "./images/footPrint.png";
+import doctakingblood from "./images/doctakingblood.png";
+import bdsyringe from "./images/bdsyringe.png";
+// import footPrint from "./images/footPrint.png";
 import { Link } from "react-router-dom";
 
 const HomeLandingContainer = (props) => {
@@ -14,9 +14,9 @@ const HomeLandingContainer = (props) => {
         <div>
           <p className="home-title">
             <div className="home-titlePlusPng">
-            <p>Your Pets </p><img src={homepageDog} alt="Dog sitting"/>
+            <p>Your Blood </p><img src={bdsyringe} alt="syringe with blood"/>
             </div>
-            Are Our
+            Is Our
             <br />
             Priority
           </p>
@@ -25,11 +25,11 @@ const HomeLandingContainer = (props) => {
           </p>
         </div>
         <div className="adopt-btn">
-          <Link to='./pets'><button className="Home-button" onClick={scrollToTop}><p>Donate Blood</p></button></Link>
+          <Link to='./pets'><button className="Home-button" onClick={scrollToTop}><p>Donate Now</p></button></Link>
         </div>
       </div>
-      <div className="homeContainer-right">
-        <img src={girlHoldingADog} alt='Girl holding a Dog'/>
+      <div className="doctakingblood">
+        <img src={doctakingblood} alt='Doctor taking blood'/>
       </div>
     </div>
   );

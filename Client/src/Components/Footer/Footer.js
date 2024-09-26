@@ -11,13 +11,15 @@ const Footer = (props) => {
           <p>{props.title}</p>
         </Link>
       </div>
-      {/* <div className="below-footer">
+       <div className="below-footer">
         <p>
           You can reach me at{" "}
-          <a className="mail-links" href="mailto:kashifkzmi5@gmail.com">
-            kashifkzmi5@gmail.com
+          <a className="mail-links" href="mailto:bloodDonation.gmail.com">
+            bloodDonation.gmail.com
           </a>
         </p>
+        </div>
+        {/*
         <p>
           <a
             className="contact-links"

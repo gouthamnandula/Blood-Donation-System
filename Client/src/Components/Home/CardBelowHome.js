@@ -10,11 +10,13 @@ const formatNumber = (number) => {
   };
 
 const CardBelowHome = () => {
-    const adoptedPets = formatNumber(1212);
+    // const donationCnt = formatNumber(101);
+    // {donationCnt}
+    {/* add donCnt here in between connecting and adopted pets */}
   return (
     <div className='dark-grey-container'>
       <div className='left-pic'><img src={HomeDarkCardLeftPic} alt="Dog with toy"/></div>
-      <div className='left-para'><p><p className='adopted-pets-num'>{adoptedPets}</p> Furry Friends<br/>Living Their Best Lives</p></div>
+      <div className='left-para'><p><p className='adopted-pets-num'></p>Donors and Recipients Connected,<br/>Saving Lives Every Day</p></div>
       <div className='right-pic'><img src={HomeDarkCardRightPic} alt="Dog pic" /></div>
       <div className='right-para'><p className='we-do'>WHAT WE DO?</p>With a focus on matching the right pet with the right family, PawFinds makes it easy to adopt love and foster happiness.</div>
     </div>
