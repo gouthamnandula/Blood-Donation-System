@@ -30,42 +30,42 @@ const App = () => {
             </Layout>
           } 
         />
-        // <Route 
-        //   path="/services" 
-        //   element={
-        //     <Layout>
-        //       <Services />
-        //     </Layout>
-        //   } 
-        // />
-        // <Route 
-        //   path="/contact" 
-        //   element={
-        //     <Layout>
-        //       <Contact />
-        //     </Layout>
-        //   } 
-        // />
-        // <Route 
-        //   path="/pets" 
-        //   element={
-        //     <Layout>
-        //       <Pets />
-        //     </Layout>
-        //   } 
-        // />
-        // <Route 
-        //   path="/adopt-form" 
-        //   element={
-        //     <Layout>
-        //       <AdoptForm />
-        //     </Layout>
-        //   } 
-        // />
-        // <Route 
-        //   path="/admin" 
-        //   element={<AdminLogin />} 
-        // />
+        {/* // <Route 
+           path="/services" 
+           element={
+            <Layout>
+              <Services />
+            </Layout>
+          } 
+        />
+        <Route 
+          path="/contact" 
+          element={
+            <Layout>
+              <Contact />
+            </Layout>
+          } 
+        />
+        <Route 
+          path="/pets" 
+          element={
+            <Layout>
+              <Pets />
+            </Layout>
+          } 
+        />
+        <Route 
+          path="/adopt-form" 
+          element={
+            <Layout>
+              <AdoptForm />
+            </Layout>
+          } 
+        />
+        <Route 
+          path="/admin" 
+          element={<AdminLogin />} 
+        /> */}
       </Routes>
     </Router>
   );

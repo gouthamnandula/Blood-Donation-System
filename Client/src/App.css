@@ -25,7 +25,8 @@
 
 .navbar-logo {
     margin-left: 10px;
-    width: 54px;
+    width: 5.5rem;
+    height: 5.5rem;
 }
 
 .logo-container {
@@ -351,8 +352,7 @@
 
 .navbar-logo {
     margin-left: 10px;
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 54px;
 }
 
 .logo-container {
