@@ -351,8 +351,8 @@
 }
 
 .navbar-logo {
-    margin-left: 10px;
-    width: 54px;
+    margin-left: 5.5rem;
+    width: 5.5rem;
 }
 
 .logo-container {
@@ -1208,13 +1208,13 @@ body {
     border-radius: 20px;
 }
 
-.below-footer {
+/* .below-footer {
     background-color: var(--textGrey);
     color: var(--black);
     padding: 10px;
     text-align: center;
     line-height: 1.6;
-}
+} */
 
 
 .navbar {
