@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import postPet from "./images/postPet.png";
+import postPet from "./images/image3.png";
 
 const PostPetSection = () => {
   const [name, setName] = useState("");
@@ -113,7 +113,7 @@ const PostPetSection = () => {
 
   return (
     <section className="post-pet-section">
-      <h2>Post a Pet for Adoption</h2>
+      <h2>Application Form to Donate Blood</h2>
       <img src={postPet} alt="Pet Looking for a Home" />
 
       <form onSubmit={handleSubmit} encType="multipart/form-data">
@@ -127,7 +127,7 @@ const PostPetSection = () => {
         </div>
 
         <div className="input-box">
-          <label>Pet Age:</label>
+          <label>Age:</label>
           <input
             type="text"
             value={age}
@@ -136,7 +136,7 @@ const PostPetSection = () => {
         </div>
 
         <div className="input-box">
-          <label>Picture:</label>
+          <label>Passport Size Photo:</label>
           <label className="file-input-label">
             <span className="file-input-text">
               {fileName || "Choose a Picture"}
@@ -166,23 +166,25 @@ const PostPetSection = () => {
             onChange={(event) => setType(event.target.value)}
           >
             <option value="None">None</option>
-            <option value="Dog">Dog</option>
-            <option value="Cat">Cat</option>
-            <option value="Rabbit">Rabbit</option>
-            <option value="Bird">Bird</option>
-            <option value="Fish">Fish</option>
+            <option value="Dog">AB+</option>
+            <option value="Cat">A+</option>
+            <option value="Rabbit">B+</option>
+            <option value="Bird">O+</option>
+            <option value="Fish">O-</option>
             <option value="Other">Other</option>
           </select>
         </div>
 
+        
         <div className="input-box">
-          <h3>Justification for giving a pet</h3>
+          <h3>Consent for blood donation</h3>
           <textarea
             rows="4"
             value={justification}
             onChange={(e) => setJustification(e.target.value)}
           ></textarea>
         </div>
+
 
         <h3>Contact Information</h3>
 
@@ -212,7 +214,7 @@ const PostPetSection = () => {
         )}
 
         <button type="submit" className="cta-button" disabled={isSubmitting}>
-          {isSubmitting ? "Submitting..." : "Submit Your Pet"}
+          {isSubmitting ? "Submitting..." : "Submit Your Application"}
         </button>
 
         {showPopup && (

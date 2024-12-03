@@ -14,11 +14,11 @@ const HomeLandingContainer = (props) => {
         <div>
           <p className="home-title">
             <div className="home-titlePlusPng">
-            <p>Your Blood </p><img src={bdsyringe} alt="syringe with blood"/>
+            <p>Saving Lives, </p><img src={bdsyringe} alt="syringe with blood"/>
             </div>
-            Is Our
+            One Drop
             <br />
-            Priority
+            Away
           </p>
           <p className="home-second-para">
             {props.description}

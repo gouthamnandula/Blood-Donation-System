@@ -20,7 +20,7 @@ const Navbar = (props) => {
             <Link to="/services">Services</Link>
           </li>
           <li>
-            <Link to="/pets">Blood</Link>
+            <Link to="/pets">Donar List</Link>
           </li>
           <li>
             <Link to="/contact">Contact Us</Link>
@@ -29,7 +29,7 @@ const Navbar = (props) => {
       </div>
       <div>
         <Link to="/services">
-          <button className="Navbar-button">Log in</button> 
+          <button className="Navbar-button">Dashboard</button> 
         </Link>
       </div>
     </div>

@@ -30,7 +30,7 @@ const App = () => {
             </Layout>
           } 
         />
-        {/* // <Route 
+         <Route 
            path="/services" 
            element={
             <Layout>
@@ -65,7 +65,7 @@ const App = () => {
         <Route 
           path="/admin" 
           element={<AdminLogin />} 
-        /> */}
+        /> 
       </Routes>
     </Router>
   );

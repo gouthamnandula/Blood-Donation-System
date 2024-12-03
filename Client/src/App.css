@@ -221,20 +221,19 @@
     text-align: center;
     padding: 50px;
 }
-
 .post-pet-section img {
     max-width: 60%;
     border-radius: 10px;
     margin-bottom: 20px;
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
     font-size: 20px;
     margin-top: 20px;
 }
 
 .post-pet-section label {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color:red;
     font-weight: bold;
     display: block;
 }
@@ -667,12 +666,11 @@ body {
 .adopt-section h2 {
     font-family: "Varela Round", sans-serif;
     padding-bottom: 10px;
-    color: var(--orange);
-    border-bottom: 2px solid var(--orange);
+    color: red;
+    border-bottom: 2px solid red;
     font-size: 32px;
     margin-bottom: 20px;
 }
-
 .adopt-section img {
     margin: 15px 0;
     max-width: 60%;
@@ -688,7 +686,7 @@ body {
 }
 
 .adopt-section h3 {
-    color: var(--orange);
+    color:red;
     font-size: 20px;
     margin-top: 20px;
 }
@@ -710,7 +708,7 @@ body {
 .cta-button {
     display: inline-block;
     padding: 10px 16px;
-    background-color: var(--orange);
+    background-color: red;
     color: var(--white);
     text-decoration: none;
     border-radius: 100px;
@@ -720,7 +718,7 @@ body {
 }
 
 .cta-button:hover {
-    background-color: var(--orange);
+    background-color: red;
     cursor: pointer;
     transition: all 0.5s;
 }
@@ -733,7 +731,7 @@ body {
 .post-pet-section h2 {
     font-family: "Varela Round", sans-serif;
     padding-bottom: 10px;
-    color: var(--orange);
+    color: red;
     border-bottom: 2px solid var(--orange);
     font-size: 32px;
     margin-bottom: 20px;
@@ -754,14 +752,14 @@ body {
 
 .post-pet-section h3 {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
     font-size: 20px;
     margin-top: 20px;
 }
 
 .post-pet-section label {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
     font-weight: bold;
     display: block;
 }
@@ -803,13 +801,13 @@ body {
     border: none;
     padding: 8px 8px;
     color: var(--white);
-    background-color: var(--orange);
+    background-color: red;
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 16px;
-    background-color: var(--orange);
+    background-color: red;
     color: var(--white);
     text-decoration: none;
     border-radius: 100px;
@@ -819,35 +817,9 @@ body {
     margin-top: 10px;
 }
 
-.cta-button:hover {
-    background-color: var(--hoverorange);
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-.m-b {
-    margin-bottom: 20px;
-}
-
-.file-input-label {
-    display: inline-block;
-    font-family: "Varela Round", sans-serif;
-    font-size: 14px;
-    margin: 10px 0;
-    border-radius: 100px;
-    border: none;
-    padding: 8px 20px;
-    color: var(--white);
-    background-color: var(--orange);
-    cursor: pointer;
-    transition: background-color 0.3s;
-    max-width: 165px;
-    overflow: hidden;
-    max-height: 33px;
-}
 
 .file-input-label:hover {
-    background-color: var(--hoverorange);
+    background-color: white;
 }
 
 .file-input {
@@ -856,8 +828,9 @@ body {
 
 .file-input-text {
     display: inline-block;
-    color: var(--white);
+    color: red;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 
