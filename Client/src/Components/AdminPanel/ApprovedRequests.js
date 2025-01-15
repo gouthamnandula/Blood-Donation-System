@@ -35,7 +35,7 @@ const ApprovedRequests = () => {
             <PetCards key={request._id} pet={request} updateCards={fetchRequests} deleteBtnText={"Delete Post"} approveBtn={false}/>
           ))
         ) : (
-          <p>No Approved Pets available</p>
+          <p>No Approved blood available</p>
         )
       )}
     </div>

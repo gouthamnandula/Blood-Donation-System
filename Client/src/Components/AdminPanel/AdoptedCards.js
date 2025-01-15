@@ -42,9 +42,9 @@ const AdoptedCards = (props) => {
         <div className='pet-card-details'>
           <h2>{props.pet.name}</h2>
           <p><b>Type:</b> {props.pet.type}</p>
-          <p><b>New Owner Email:</b> {props.pet.email}</p>
-          <p><b>New Owner Phone:</b> {props.pet.phone}</p>
-          <p><b>Adopted: </b>{formatTimeAgo(props.pet.updatedAt)}</p>
+          <p><b> Owner Email:</b> {props.pet.email}</p>
+          <p><b> Owner Phone:</b> {props.pet.phone}</p>
+          <p><b>Acquired: </b>{formatTimeAgo(props.pet.updatedAt)}</p>
         </div>
         <div className='app-rej-btn'>
           <button onClick={handleReject} disabled={isDeleting}>{isDeleting ? (<p>Deleting</p>) : (props.deleteBtnText)}</button>
@@ -65,11 +65,11 @@ const AdoptedCards = (props) => {
             <div className='popup-content'>
               <p>Approval Successful...</p>
               <p>
-                Please contact the customer at{' '}
+                Please contact the donar at{' '}
                 <a href={`mailto:${props.pet.email}`}>{props.pet.email}</a>{' '}
                 or{' '}
                 <a href={`tel:${props.pet.phone}`}>{props.pet.phone}</a>{' '}
-                to arrange the transfer of the pet from the owner's home to our adoption center.
+                to arrange the transfer of blood from the donar to our hospital.
               </p>
             </div>
             <button onClick={() => {

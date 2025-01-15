@@ -190,7 +190,7 @@
 }
 
 .we-do {
-    color: var(--orange);
+    color: red;
     margin-bottom: 10px;
 }
 
@@ -256,7 +256,7 @@
     display: flex;
     flex-direction: column;
     margin: 10px 10px;
-    border: 1px solid var(--orange);
+    border: 1px solid red;
     width: 310px;
 }
 
@@ -268,7 +268,7 @@
 
 .pet-card-details p {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
 }
 
 .popup {
@@ -309,7 +309,7 @@
 .clickable-pet-name {
     display: inline;
     cursor: pointer;
-    color: var(--orange);
+    color: red;
 }
 
 .req-filter-selection {
@@ -317,7 +317,7 @@
     padding: 6px 5px;
     border-radius: 15px;
     color: var(--white);
-    background-color: var(--orange);
+    background-color: red;
     border: none;
 }
 
@@ -606,7 +606,7 @@ body {
 }
 
 .we-do {
-    color: var(--orange);
+    color: red;
     margin-bottom: 10px;
 }
 
@@ -636,7 +636,7 @@ body {
 
 .card-button {
     margin-top: 40px;
-    border: 2px var(--orange) solid;
+    border: 2px red solid;
     height: 42px;
     width: 120px;
     font-family: 'Oxygen', sans-serif;
@@ -644,7 +644,7 @@ body {
     font-size: 15px;
     border-radius: 20px;
     background-color: var(--white);
-    color: var(--orange);
+    color: red;
 }
 
 .card-button:hover {
@@ -732,7 +732,7 @@ body {
     font-family: "Varela Round", sans-serif;
     padding-bottom: 10px;
     color: red;
-    border-bottom: 2px solid var(--orange);
+    border-bottom: 2px solid red;
     font-size: 32px;
     margin-bottom: 20px;
 }
@@ -862,7 +862,7 @@ body {
     border: none;
     padding: 8px 8px;
     color: var(--white);
-    background-color: var(--orange);
+    background-color: red;
 }
 
 .filter-selection select:active {
@@ -887,7 +887,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 10px 10px;
-    border: 1px solid var(--orange);
+    border: 1px solid red;
     width: 310px;
 }
 
@@ -908,14 +908,14 @@ body {
 
 .pet-card-details h2 {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
     text-align: center;
     margin: 5px 0;
 }
 
 .pet-card-details p {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
 }
 
 .show-interest-btn {
@@ -931,7 +931,7 @@ body {
     border: none;
     padding: 8px 15px;
     color: var(--white);
-    background-color: var(--orange);
+    background-color: red;
 }
 
 .show-interest-btn button:hover {
@@ -981,7 +981,7 @@ body {
     justify-content: space-between;
     flex-direction: row;
     margin: auto;
-    border: 1px solid var(--orange);
+    border: 1px solid red;
     width: 310px;
     height: 120px;
     margin-bottom: 17px;
@@ -995,7 +995,7 @@ body {
 
 .pet-info h2 {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
     text-align: center;
     margin: 5px 0;
 }
@@ -1010,7 +1010,7 @@ body {
 
 .pet-info p {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
 }
 
 .custom-adopt-form-container {
@@ -1021,8 +1021,8 @@ body {
 .custom-form-heading {
     font-family: "Varela Round", sans-serif;
     padding-bottom: 10px;
-    color: var(--orange);
-    border-bottom: 2px solid var(--orange);
+    color: red;
+    border-bottom: 2px solid red;
     font-size: 32px;
     margin-bottom: 20px;
 }
@@ -1042,14 +1042,14 @@ body {
 
 .custom-form h3 {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
     font-size: 20px;
     margin-top: 20px;
 }
 
 .custom-label {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
     font-weight: bold;
     margin-bottom: 3px;
     display: block;
@@ -1073,7 +1073,7 @@ body {
 .custom-cta-button {
     display: inline-block;
     padding: 10px 16px;
-    background-color: var(--orange);
+    background-color: red;
     color: var(--white);
     text-decoration: none;
     border-radius: 100px;
@@ -1171,9 +1171,9 @@ body {
 }
 
 .contact-links:hover {
-    background-color: var(--orange);
+    background-color: red;
     color: var(--white);
-    text-shadow: 2px 2px 2px var(--orange);
+    text-shadow: 2px 2px 2px red;
     text-decoration: none;
     border-radius: 20px;
 }
@@ -1191,7 +1191,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--orange);
+    background-color: red;
     color: white;
     padding: 10px 20px;
 }
@@ -1207,7 +1207,7 @@ body {
 }
 
 .admin-footer {
-    background-color: var(--orange);
+    background-color: red;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -1242,7 +1242,7 @@ body {
 
 .login-container h2 {
     font-size: 1.5rem;
-    color: var(--orange);
+    color: red;
     margin-bottom: 10px;
 }
 
@@ -1255,11 +1255,11 @@ body {
 }
 
 .login-container input:focus {
-    border: 1px solid var(--orange);
+    border: 1px solid red;
 }
 
 .login-container button {
-    background-color: var(--orange);
+    background-color: red;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -1301,14 +1301,14 @@ body {
 .admin-screen-left p {
     font-weight: bold;
     font-size: large;
-    color: var(--orange);
+    color: red;
     font-family: "Varela Round", sans-serif;
     cursor: pointer;
     margin: 10px 0;
     display: flex;
     justify-content: flex-start;
     padding-bottom: 10px;
-    border-bottom: 2px solid var(--orange);
+    border-bottom: 2px solid red;
 }
 
 .admin-screen-left p:hover {
@@ -1316,7 +1316,7 @@ body {
 }
 
 .admin-screen-right {
-    border-left: 3px solid var(--orange);
+    border-left: 3px solid red;
     padding: 0 4vw;
     max-width: 80vw;
     min-width: 80vw;
@@ -1326,7 +1326,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 10px 10px;
-    border: 1px solid var(--orange);
+    border: 1px solid red;
     width: 310px;
     overflow: hidden;
 }
@@ -1348,14 +1348,14 @@ body {
 
 .pet-card-details h2 {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
     text-align: center;
     margin: 5px 0;
 }
 
 .pet-card-details p {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
 }
 
 .form-card-details {
@@ -1367,7 +1367,7 @@ body {
 
 .form-card-details h2 {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
     text-align: center;
     margin: 5px 0;
     overflow: hidden;
@@ -1377,7 +1377,7 @@ body {
 
 .form-card-details p {
     font-family: "Varela Round", sans-serif;
-    color: var(--orange);
+    color: red;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -1396,7 +1396,7 @@ body {
     border: none;
     padding: 8px 15px;
     color: var(--white);
-    background-color: var(--orange);
+    background-color: red;
 }
 
 .app-rej-btn {
@@ -1412,7 +1412,7 @@ body {
     border: none;
     padding: 8px 15px;
     color: var(--white);
-    background-color: var(--orange);
+    background-color: red;
     min-width: 90px;
 }
 
@@ -1493,7 +1493,7 @@ body {
 .clickable-pet-name {
     display: inline;
     cursor: pointer;
-    color: var(--orange);
+    color: red;
 }
 
 .req-filter-selection {
@@ -1501,7 +1501,7 @@ body {
     padding: 6px 5px;
     border-radius: 15px;
     color: var(--white);
-    background-color: var(--orange);
+    background-color: red;
     border: none;
 }
 

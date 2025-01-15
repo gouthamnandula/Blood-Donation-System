@@ -83,7 +83,7 @@ function AdoptForm(props) {
 
   return (
     <div className="custom-adopt-form-container">
-      <h2 className="custom-form-heading">Pet Adoption Application</h2>
+      <h2 className="custom-form-heading">Acquire Blood Application</h2>
       <div className="form-pet-container">
         <div className="pet-details">
           <div className="pet-pic">
@@ -129,33 +129,13 @@ function AdoptForm(props) {
                 className="custom-input"
               />
             </div>
-            <div className="custom-input-box">
-              <label className="custom-label">Pet Living Situation:</label>
-              <input
-                type="text"
-                value={livingSituation}
-                onChange={(e) => setLivingSituation(e.target.value)}
-                className="custom-input"
-              />
-            </div>
-            <div className="custom-input-box">
-              <label className="custom-label">Previous Pet Experience:</label>
-              <input
-                type="text"
-                value={previousExperience}
-                onChange={(e) => setPreviousExperience(e.target.value)}
-                className="custom-input"
-              />
-            </div>
-            <div className="custom-input-box">
-              <label className="custom-label">Any Other Pets:</label>
-              <input
-                type="text"
-                value={familyComposition}
-                onChange={(e) => setFamilyComposition(e.target.value)}
-                className="custom-input"
-              />
-            </div>
+            
+
+
+
+
+
+
             {formError && (
               <p className="error-message">Please fill out all fields.</p>
             )}

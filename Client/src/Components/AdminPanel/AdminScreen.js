@@ -11,10 +11,10 @@ const AdminScreen = () => {
     <div className='admin-screen-container'>
       <div className='admin-screen-left'>
         <div>
-          <p onClick={() => setScreen('postingPet')}>Post Pet Requests</p>
-          <p onClick={() => setScreen('approvedRequests')}>Approved Pets</p>
-          <p onClick={() => setScreen('adoptingPet')}>Adoption Requests</p>
-          <p onClick={() => setScreen('adoptedHistory')}>Adopted History</p>
+          <p onClick={() => setScreen('postingPet')}>Post Blood Requests</p>
+          <p onClick={() => setScreen('approvedRequests')}>Approved Blood Requests</p>
+          <p onClick={() => setScreen('adoptingPet')}>Acquire Blood Requests</p>
+          <p onClick={() => setScreen('adoptedHistory')}>History</p>
 
         </div>
       </div>

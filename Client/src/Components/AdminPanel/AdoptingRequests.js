@@ -104,7 +104,7 @@ const AdoptingRequests = () => {
           );
         })
       ) : (
-        <p>No adoption requests available for any pet.</p>
+        <p>No acquried requests available for any blood.</p>
       )}
 
       {petDetailsPopup && selectedPet && (
@@ -119,9 +119,9 @@ const AdoptingRequests = () => {
                 <p><b>Type:</b> {selectedPet.type}</p>
                 <p><b>Age:</b> {selectedPet.age}</p>
                 <p><b>Location:</b> {selectedPet.area}</p>
-                <p><b>Owner Email:</b> {selectedPet.email}</p>
-                <p><b>Owner Phone:</b> {selectedPet.phone}</p>
-                <p><b>Justification:</b> {selectedPet.justification}</p>
+                <p><b> Email:</b> {selectedPet.email}</p>
+                <p><b> Phone:</b> {selectedPet.phone}</p>
+                <p><b>Consent:</b> {selectedPet.justification}</p>
               </div>
             </div>
             <button onClick={closePetDetailsPopup} className='close-btn'>

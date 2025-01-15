@@ -84,8 +84,8 @@ const FormCard = (props) => {
           <p><b>Email: </b> {props.form.email}</p>
           <p><b>Phone Number: </b> {props.form.phoneNo}</p>
           <p><b>Living Situation: </b> {props.form.livingSituation}</p>
-          <p><b>Previous Pet Experience: </b> {props.form.previousExperience}</p>
-          <p><b>Having Other Pets? </b> {props.form.familyComposition}</p>
+          <p><b>Previous Experience: </b> {props.form.previousExperience}</p>
+          <p><b>Have regular need of blood? </b> {props.form.familyComposition}</p>
           <p>{formatTimeAgo(props.form.updatedAt)}</p>
         </div>
         <div className='app-rej-btn'>
@@ -109,13 +109,13 @@ const FormCard = (props) => {
         {showApproved && (
           <div className='popup'>
             <div className='popup-content'>
-              <p>Pet is Adopted Successfully...</p>
+              <p>Blood is donated Successfully...</p>
               <p>
-                Please contact the Adopter at{' '}
+                Please contact the hospital at{' '}
                 <a href={`mailto:${props.form.email}`}>{props.form.email}</a>{' '}
                 or{' '}
                 <a href={`tel:${props.form.phoneNo}`}>{props.form.phoneNo}</a>{' '}
-                to arrange the transfer of the pet from our adoption center to their house.
+                to arrange the transfer of the blood from our hospital to patient.
               </p>
             </div>
             <button onClick={() => {
@@ -148,8 +148,8 @@ const FormCard = (props) => {
               <p><b>Email: </b> {props.form.email}</p>
               <p><b>Phone Number: </b> {props.form.phoneNo}</p>
               <p><b>Living Situation: </b> {props.form.livingSituation}</p>
-              <p><b>Previous Pet Experience: </b> {props.form.previousExperience}</p>
-              <p><b>Having Other Pets? </b> {props.form.familyComposition}</p>
+              <p><b>Previous Experience: </b> {props.form.previousExperience}</p>
+              <p><b>Have regular need of blood? </b> {props.form.familyComposition}</p>
               <p>{formatTimeAgo(props.form.updatedAt)}</p>
             </div>
             <button onClick={() => setShowDetailsPopup(false)} className='close-btn'>

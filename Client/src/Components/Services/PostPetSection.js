@@ -166,11 +166,11 @@ const PostPetSection = () => {
             onChange={(event) => setType(event.target.value)}
           >
             <option value="None">None</option>
-            <option value="Dog">AB+</option>
-            <option value="Cat">A+</option>
-            <option value="Rabbit">B+</option>
-            <option value="Bird">O+</option>
-            <option value="Fish">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="A+">A+</option>
+            <option value="B+">B+</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
             <option value="Other">Other</option>
           </select>
         </div>

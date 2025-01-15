@@ -94,8 +94,8 @@ const PetCards = (props) => {
           <p><b>Type:</b> {props.pet.type}</p>
           <p><b>Age:</b> {props.pet.age}</p>
           <p><b>Location:</b> {props.pet.area}</p>
-          <p><b>Owner Email:</b> {props.pet.email}</p>
-          <p><b>Owner Phone:</b> {props.pet.phone}</p>
+          <p><b> Email:</b> {props.pet.email}</p>
+          <p><b> Phone:</b> {props.pet.phone}</p>
           <p>
             <b>Justification:</b>
             <span>
@@ -119,7 +119,7 @@ const PetCards = (props) => {
         {showJustificationPopup && (
           <div className='popup'>
             <div className='popup-content'>
-              <h4>Justification:</h4>
+              <h4>Consent:</h4>
               <p>{props.pet.justification}</p>
             </div>
             <button onClick={() => setShowJustificationPopup(!showJustificationPopup)} className='close-btn'>
@@ -142,11 +142,11 @@ const PetCards = (props) => {
             <div className='popup-content'>
               <p>Approval Successful...</p>
               <p>
-                Please contact the customer at{' '}
+                Please contact the user at{' '}
                 <a href={`mailto:${props.pet.email}`}>{props.pet.email}</a>{' '}
                 or{' '}
                 <a href={`tel:${props.pet.phone}`}>{props.pet.phone}</a>{' '}
-                to arrange the transfer of the pet from the owner's home to our adoption center.
+                to arrange the transfer of the blood from the donar to our hospital.
               </p>
             </div>
             <button onClick={() => {

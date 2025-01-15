@@ -40,7 +40,7 @@ const AdoptedHistory = () => {
           />
         ))
       ) : (
-        <p>No Adopted Pets available</p>
+        <p>No donated blood data available</p>
       )}
     </div>
   );

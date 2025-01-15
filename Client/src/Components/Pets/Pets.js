@@ -39,12 +39,12 @@ const Pets = () => {
           value={filter}
           onChange={(event) => setFilter(event.target.value)}
         >
-          <option value="all">All Pets</option>
-          <option value="Dog">Dogs</option>
-          <option value="Cat">Cats</option>
-          <option value="Rabbit">Rabbits</option>
-          <option value="Bird">Birds</option>
-          <option value="Fish">Fishs</option>
+          <option value="all">All Blood Type</option>
+          <option value="A+">A+</option>
+          <option value="B+">B+</option>
+          <option value="AB+">AB+</option>
+          <option value="O+">O+</option>
+          <option value="A-">A-</option>
           <option value="Other">Other</option>
         </select>
       </div>
@@ -55,7 +55,7 @@ const Pets = () => {
               <PetsViewer pet={petDetail} key={index} />
             ))
           ) : (
-            <p className="oops-msg">Oops!... No pets available</p>
+            <p className="oops-msg">Currently Blood not avaliable</p>
           )
           )
         }
