@@ -83,14 +83,14 @@ const FormCard = (props) => {
         <div className='form-card-details'>
           <p><b>Email: </b> {props.form.email}</p>
           <p><b>Phone Number: </b> {props.form.phoneNo}</p>
-          <p><b>Living Situation: </b> {props.form.livingSituation}</p>
-          <p><b>Previous Experience: </b> {props.form.previousExperience}</p>
-          <p><b>Have regular need of blood? </b> {props.form.familyComposition}</p>
+          <p><b>Why do you want blood:</b> {props.form.livingSituation}</p>
+          <p><b>Have you ever acquired blood previously:</b> {props.form.previousExperience}</p>
+          <p><b>Do you need blood regularly:</b> {props.form.familyComposition}</p>
           <p>{formatTimeAgo(props.form.updatedAt)}</p>
         </div>
         <div className='app-rej-btn'>
           <button onClick={handleReject} disabled={isDeleting || isApproving}>{isDeleting ? (<p>Deleting</p>) : (props.deleteBtnText)}</button>
-          <button onClick={() => setShowDetailsPopup(true)}>View Full</button>
+          
           {props.approveBtn ?
             <button onClick={handleApprove} disabled={isDeleting || isApproving} >{isApproving ? (<p>Approving</p>) : 'Approve'}</button>
             : ''
