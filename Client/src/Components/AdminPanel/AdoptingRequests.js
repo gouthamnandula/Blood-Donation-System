@@ -66,16 +66,7 @@ const AdoptingRequests = () => {
 
   return (
     <div>
-      <div className="dropdown-container" style={{ textAlign: 'right', marginBottom: '20px' }}>
-        <select className='req-filter-selection' onChange={handlePetChange} value={selectedPetId}>
-          <option value="">All Requets</option>
-          {petsWithRequests.map((pet) => (
-            <option key={pet._id} value={pet._id}>
-              {pet.name}
-            </option>
-          ))}
-        </select>
-      </div>
+      
       {loading ? (
         <p>Loading...</p>
       ) : filteredPets.length > 0 ? (

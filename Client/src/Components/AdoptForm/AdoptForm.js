@@ -136,7 +136,7 @@ function AdoptForm(props) {
                 value={familyComposition}
                 onChange={(e) => setFamilyComposition(e.target.value)}
                 className="custom-input"
-              />
+              /> 
             </div>
             <div className="custom-input-box">
               <label className="custom-label">Have you ever acquired blood previously:</label>
