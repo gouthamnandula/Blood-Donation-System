@@ -81,7 +81,7 @@ const PostPetSection = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:4000/services", {
+      const response = await fetch("http://51.20.183.104:4000/services", {
         method: "POST",
         body: formData,
       });
